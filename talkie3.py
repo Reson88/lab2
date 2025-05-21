@@ -22,8 +22,7 @@ try:
         print(f"Wow {user_name}, you need to get those numbers up!") #be condescending
     if num_programs > 10:
         print("Good stuff, keep it up!")
-        if num_programs > 10:
-            print("wow that's approx " + str(prgm_amt / 12) + " per month!")
+        print("wow that's approx " + str(prgm_amt / 12) + " per month!")
 
 except ValueError:
     print("not a number :(")
